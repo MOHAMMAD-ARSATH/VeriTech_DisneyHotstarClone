@@ -360,67 +360,84 @@ body {
 }
 
 footer {
-    background-color: #1f1f1f;
+    background: #0c111b;
     color: #fff;
-    padding: 20px 0;
+    margin: 70px 50px 20px 80px;
 }
 
 .footer-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
+    align-items: stretch;
     margin: 0 auto;
 }
 
-.footer-links ul,
-.footer-legal ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.footer-links li,
-.footer-legal li {
-    display: inline-block;
-    margin-right: 15px;
-}
-
-.footer-links a,
-.footer-legal a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
-
-.footer-language select,
-.footer-weather p {
-    color: #fff;
-    background-color: #333;
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
-}
-
-.footer-bottom {
+.footer-left {
+    min-width: 75%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
 }
 
-.footer-copyright,
-.footer-legal,
-.footer-weather {
+.footer-links {
     flex: 1;
 }
 
-.footer-legal a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+.footer-links ul {
+    list-style: none;
+    padding: 0;
 }
 
-.footer-legal a:hover {
-    text-decoration: underline;
+.footer-links ul li , .footer-links ul li a {
+    color: #8F98B2;
+    font-size: 15px;
+}
+
+.footer-links .top {
+    margin-bottom: 25px;
+    font-size: 17px;
+    font-weight: 540;
+}
+
+.footer-links #copy {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #8F98B2;
+}
+
+.footer-links .bottom {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+}
+
+.footer-links .bottom li {
+  margin-right: 10px; 
+}
+
+.footer-links li {
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-right p  {
+    margin-left: 160px;
+}
+
+.footer-right img {
+    width: 150px;
+    margin-top: 30px;
+}
+
+.footer-right .icons {
+    margin-left: 170px;
+}
+
+.footer-right .footer-links i {
+    font-size: 25px;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
